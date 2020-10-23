@@ -1,0 +1,149 @@
+body{
+  font-family: 'Bangers', cursive;
+  background-color: #efebebb0
+}
+
+.nav_tekst h1{
+  float:left;
+}
+
+.nav_tekst li{
+  float:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  color: white;
+}
+
+ul h1 a{
+  padding-left: 30px;
+  color: white;
+}
+
+ul h1 a:link{
+  text-decoration: none;
+}
+
+ul h1 a:hover{
+  font-size: 25px;
+}
+
+
+
+li:last-child{
+  border-right: none;
+}
+
+li a{
+  display: block;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid rgba(255,255,255,.5);
+  padding: 8px 15px;
+  transition: all 200ms ease;
+}
+
+li a:hover{
+  background-size: 30px;
+  background-color: grey;
+  color: white;
+  font-size: 110%;
+}
+
+.active{
+  background-color: grey;
+  color: white;
+}
+
+.plaatje1{
+  padding-right: 250px;
+  float: right;
+  width: 400px;
+  height: 525px;
+}
+
+section{
+  text-align: left;
+  padding-left: 100px;
+}
+
+section article{
+  font-size: 18px;
+  padding-right: 1000px;
+}
+
+section h1{
+  font-size: 30px;
+}
+
+section a:link{
+  color: black;
+}
+
+.projecten {
+  display: flex;
+}
+
+
+.project{
+  background-color: #bbbbbbbb;
+  margin: auto;
+  padding: 30px;
+  height: 350px;
+  width: 200px;
+}
+
+.project a{
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+.vl {
+  border-left: 6px solid darkcyan;
+  height: 110px;
+  position: absolute;
+  margin-left: -3px;
+}
+
+.Project_tekst{
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.Over_mij_tekst{
+  font-size: 22px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.Over_mij_h1{
+  font-size: 28px;
+  text-align: center;
+}
+
+.footer{
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+}
